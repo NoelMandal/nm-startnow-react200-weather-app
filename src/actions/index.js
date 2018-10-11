@@ -1,7 +1,5 @@
 import axios from "axios";
-const dotenv = require("dotenv");
 
-dotenv.config();
 
 const ROOT_URL = `https://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
 
